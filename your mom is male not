@@ -1,0 +1,21 @@
+class Person:
+  def __init__(self, fname, lname, gender):
+    self.firstname = fname
+    self.lastname = lname
+    self.gender = gender
+  def printname(self):
+    print(self.firstname, self.lastname, self.gender)
+
+x = Person("John", "Doe" , "isn't male")
+x.printname()
+class Students:
+  def __init__(self, gender):
+    self.gender = gender
+
+  def printname(self):
+    print(self.gender, )
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("man", "Baldan", "isn't  male")
+
